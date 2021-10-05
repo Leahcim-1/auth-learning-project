@@ -10,5 +10,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  test()
   return "<p>Hello, World!</p>"
+
+@app.route ("/login")
+def login(): 
+  pass
